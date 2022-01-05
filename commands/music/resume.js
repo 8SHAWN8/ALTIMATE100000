@@ -22,7 +22,7 @@ module.exports = {
         return message.channel.send('**There is nothing to resume**.');
       } catch {
         serverQueue.connection.dispatcher.end();
-        return message.channel.send("**Something Went Wrong!**")
+        return message.channel.send("Hello")
       }
     }
 };
